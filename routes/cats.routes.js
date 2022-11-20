@@ -8,7 +8,6 @@ router.get("/cats/tags", (req, res, next) => {
   axios
     .get(`${url}/api/tags`)
     .then((response) => {
-      console.log(response)
       res.send(response.data);
     })
     .catch((e) => {
@@ -20,7 +19,6 @@ router.get("/cats", (req, res, next) => {
   axios
     .get(`${url}/api/cats`)
     .then((response) => {
-      console.log(response)
       res.send(response.data);
     })
     .catch((e) => {
@@ -66,9 +64,9 @@ router.get("/cats/filter", (req, res, next) => {
 router.get("/cats/search", (req, res, next) => {
   // const textToFind = req.body.search ? req.body.search.trim() : "";
   axios
-    .get(`${url}/api/cats`)
+    .get(`${url}/api/tags`)
     .then((response) => {
-      const substrings = "cute";
+      const substrings = req.params;
       let searchResult = [];
       response.data.map((item) => {
         item.tags.forEach((element) => {
