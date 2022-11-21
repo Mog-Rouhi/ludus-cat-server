@@ -1,4 +1,4 @@
-# CAT A A S project created with JavaScript and Node.js
+# CAT A A S project created with JavaScript, Express.js and Node.js
 
 Fetching [cat as a service API](https://cataas.com)
 
