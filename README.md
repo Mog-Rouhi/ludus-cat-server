@@ -1,4 +1,4 @@
-# CATASS project created with JavaScript and Node.js
+# CATAAS project created with JavaScript and Node.js
 
 Using CAT AS A SERVICE API.
 
