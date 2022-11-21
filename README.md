@@ -28,7 +28,7 @@ npm install axios
 
 ## Front-end  
  
-Backend repository --> [lodus-cat-server](https://github.com/Mog-Rouhi/ludus-cat-client)
+Frontend repository --> [lodus-cat-client](https://github.com/Mog-Rouhi/ludus-cat-client)
 
 <img src="./images/screenshot-1.jpg" alt="drawing" style="width:1000px;"/>
 <img src="./images/screenshot-2.jpg" alt="drawing" style="width:1000px;"/>
