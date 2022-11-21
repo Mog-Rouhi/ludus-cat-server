@@ -1,6 +1,6 @@
 # CAT A A S project created JavaScript and Node.js
 
-Fetching [cat as a service API] (https://cataas.com)
+Fetching [cat as a service API](https://cataas.com)
 
 ## Available Scripts
 
