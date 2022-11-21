@@ -1,6 +1,6 @@
-# Project Created with JavaScript and Node.js
+# CAT A A S project created JavaScript and Node.js
 
-Using CAT AS A SERVICE API.
+Fetching cat as a service API [https://cataas.com]
 
 ## Available Scripts
 
