@@ -1,9 +1,9 @@
 const router = require("express").Router();
 const axios = require("axios");
-// const https = require("https");
 
 const url = new URL("https://cataas.com");
 
+// Get all tags from API
 router.get("/cats/tags", (req, res, next) => {
   axios
     .get(`${url}/api/tags`)
@@ -15,6 +15,7 @@ router.get("/cats/tags", (req, res, next) => {
     });
 });
 
+// Get all cats objects from API
 router.get("/cats", (req, res, next) => {
   axios
     .get(`${url}/api/cats`)
@@ -26,6 +27,7 @@ router.get("/cats", (req, res, next) => {
     });
 });
 
+// Filter cats
 router.get("/cats/filter", (req, res, next) => {
   // const filterData = {
   //     tag: req.body.tag,
@@ -51,6 +53,7 @@ router.get("/cats/filter", (req, res, next) => {
     });
 });
 
+
 // router.get("/cats/search", (req, res, next) => {
 //     // axios.get(`${url}/api/cats/match?string=${substr}`)
 //     // .then()
@@ -61,6 +64,8 @@ router.get("/cats/filter", (req, res, next) => {
 //     res.render()
 // })
 
+
+// Search for cats
 router.get("/cats/search", (req, res, next) => {
   // const textToFind = req.body.search ? req.body.search.trim() : "";
   axios
