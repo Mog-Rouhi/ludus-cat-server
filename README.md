@@ -1,6 +1,6 @@
-# Project Created with Express.js and Node.js
+# Project Created with JavaScript and Node.js
 
-Using Express to access CAT AS A SERVICE API.
+Using CAT AS A SERVICE API.
 
 ## Available Scripts
 
@@ -23,3 +23,7 @@ npm install axios
 ## Front-end  
  
 Backend repository --> [lodus-cat-server](https://github.com/Mog-Rouhi/ludus-cat-client)
+
+<img src="./images/screenshot-1.jpg" alt="drawing" style="width:1000px;"/>
+<img src="./images/screenshot-2.jpg" alt="drawing" style="width:1000px;"/>
+<img src="./images/screenshot-0.jpg" alt="drawing" style="width:1000px;"/>
