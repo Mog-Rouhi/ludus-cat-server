@@ -1,6 +1,8 @@
-# CAT A A S project created with JavaScript, Express.js and Node.js
+# Project created with JavaScript, Express.js, Node.js and CATAAS API
 
-Fetching [cat as a service API](https://cataas.com)
+* Fetching [cat as a service API](https://cataas.com)
+* Implement Search for the received data 
+* Create Filter for the received data
 
 ## Available Scripts
 
