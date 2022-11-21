@@ -9,8 +9,14 @@ In the project directory, you can run:
 ### `npm install`
 ### `npm run dev`
 
-Runs the app in the development mode.\
+To run the app in the development mode.\
 Open [http://localhost:5005](http://localhost:5005) to view it in your browser.
+
+## Environmental variables
+
+PORT
+ORIGIN >> Front-end url
+
 
 ## Other npm packages
 
